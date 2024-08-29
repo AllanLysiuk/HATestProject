@@ -7,21 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF365FE82C6BD2EE00CC8200 /* SettingsVCRootCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF365FE72C6BD2EE00CC8200 /* SettingsVCRootCoordinatorProtocol.swift */; };
+		BF365FEA2C6BD30200CC8200 /* SettingsVCCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF365FE92C6BD30200CC8200 /* SettingsVCCoordinatorProtocol.swift */; };
+		BF365FEC2C6BD37600CC8200 /* SettingsVMProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF365FEB2C6BD37600CC8200 /* SettingsVMProtocol.swift */; };
+		BF365FEE2C6BD38E00CC8200 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF365FED2C6BD38E00CC8200 /* SettingsViewController.swift */; };
+		BF365FF02C6BD3A200CC8200 /* SettingsVCCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF365FEF2C6BD3A200CC8200 /* SettingsVCCoordinator.swift */; };
+		BF365FF22C6BD3B000CC8200 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF365FF12C6BD3B000CC8200 /* SettingsViewModel.swift */; };
+		BF365FF42C6BD3BF00CC8200 /* SettingsVCAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF365FF32C6BD3BF00CC8200 /* SettingsVCAssembler.swift */; };
+		BF58A2102C6E76BE0060ECEC /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF58A20F2C6E76BE0060ECEC /* SettingsTableViewCell.swift */; };
+		BF58A2142C6E774C0060ECEC /* SettingsTableViewCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF58A2132C6E774C0060ECEC /* SettingsTableViewCellType.swift */; };
+		BF58A2192C6E7CC80060ECEC /* AlertControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF58A2172C6E7CC80060ECEC /* AlertControllerFactory.swift */; };
+		BF58A21A2C6E7CC80060ECEC /* AlertControllerFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF58A2182C6E7CC80060ECEC /* AlertControllerFactoryProtocol.swift */; };
+		BF58A21E2C6E7D070060ECEC /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF58A21C2C6E7D070060ECEC /* Container.swift */; };
+		BF58A21F2C6E7D070060ECEC /* ServiceConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF58A21D2C6E7D070060ECEC /* ServiceConfigurations.swift */; };
+		BF58A2212C70B9C90060ECEC /* ImageCropVCState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF58A2202C70B9C90060ECEC /* ImageCropVCState.swift */; };
+		BF58A2242C70BA210060ECEC /* ImageCropVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF58A2232C70BA210060ECEC /* ImageCropVCDelegate.swift */; };
+		BF58A2272C70CCC30060ECEC /* CroppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF58A2262C70CCC30060ECEC /* CroppingView.swift */; };
 		BFAE9CCF2C6BCCC700E514A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9CCE2C6BCCC700E514A1 /* AppDelegate.swift */; };
 		BFAE9CD12C6BCCC700E514A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9CD02C6BCCC700E514A1 /* SceneDelegate.swift */; };
-		BFAE9CD32C6BCCC700E514A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9CD22C6BCCC700E514A1 /* ViewController.swift */; };
 		BFAE9CD82C6BCCC800E514A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAE9CD72C6BCCC800E514A1 /* Assets.xcassets */; };
 		BFAE9CDB2C6BCCC800E514A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAE9CD92C6BCCC800E514A1 /* LaunchScreen.storyboard */; };
+		BFAE9CE42C6BCD9100E514A1 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9CE32C6BCD9100E514A1 /* AppCoordinator.swift */; };
+		BFAE9CE62C6BCDA800E514A1 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9CE52C6BCDA800E514A1 /* Coordinator.swift */; };
+		BFAE9CF52C6BCE7100E514A1 /* TabBarAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9CEF2C6BCE7100E514A1 /* TabBarAssembler.swift */; };
+		BFAE9CF62C6BCE7100E514A1 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9CF02C6BCE7100E514A1 /* TabBarCoordinator.swift */; };
+		BFAE9CF72C6BCE7100E514A1 /* TabBarRootCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9CF22C6BCE7100E514A1 /* TabBarRootCoordinatorProtocol.swift */; };
+		BFAE9CF82C6BCE7100E514A1 /* TabBarCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9CF32C6BCE7100E514A1 /* TabBarCoordinatorProtocol.swift */; };
+		BFAE9CF92C6BCE7100E514A1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9CF42C6BCE7100E514A1 /* TabBarController.swift */; };
+		BFAE9D062C6BCF0100E514A1 /* ImageCropVCAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9CFC2C6BCF0100E514A1 /* ImageCropVCAssembler.swift */; };
+		BFAE9D072C6BCF0100E514A1 /* ImageCropVCCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9CFD2C6BCF0100E514A1 /* ImageCropVCCoordinator.swift */; };
+		BFAE9D082C6BCF0100E514A1 /* ImageCropVCRootCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9CFF2C6BCF0100E514A1 /* ImageCropVCRootCoordinatorProtocol.swift */; };
+		BFAE9D0B2C6BCF0100E514A1 /* ImageCropVCCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9D022C6BCF0100E514A1 /* ImageCropVCCoordinatorProtocol.swift */; };
+		BFAE9D0C2C6BCF0100E514A1 /* ImageCropVMProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9D032C6BCF0100E514A1 /* ImageCropVMProtocol.swift */; };
+		BFAE9D0D2C6BCF0100E514A1 /* ImageCropViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9D042C6BCF0100E514A1 /* ImageCropViewModel.swift */; };
+		BFAE9D0F2C6BD24800E514A1 /* ImageCropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9D0E2C6BD24800E514A1 /* ImageCropViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF365FE72C6BD2EE00CC8200 /* SettingsVCRootCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVCRootCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		BF365FE92C6BD30200CC8200 /* SettingsVCCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVCCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		BF365FEB2C6BD37600CC8200 /* SettingsVMProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVMProtocol.swift; sourceTree = "<group>"; };
+		BF365FED2C6BD38E00CC8200 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BF365FEF2C6BD3A200CC8200 /* SettingsVCCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVCCoordinator.swift; sourceTree = "<group>"; };
+		BF365FF12C6BD3B000CC8200 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		BF365FF32C6BD3BF00CC8200 /* SettingsVCAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVCAssembler.swift; sourceTree = "<group>"; };
+		BF58A20F2C6E76BE0060ECEC /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		BF58A2132C6E774C0060ECEC /* SettingsTableViewCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCellType.swift; sourceTree = "<group>"; };
+		BF58A2172C6E7CC80060ECEC /* AlertControllerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertControllerFactory.swift; sourceTree = "<group>"; };
+		BF58A2182C6E7CC80060ECEC /* AlertControllerFactoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertControllerFactoryProtocol.swift; sourceTree = "<group>"; };
+		BF58A21C2C6E7D070060ECEC /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		BF58A21D2C6E7D070060ECEC /* ServiceConfigurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceConfigurations.swift; sourceTree = "<group>"; };
+		BF58A2202C70B9C90060ECEC /* ImageCropVCState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropVCState.swift; sourceTree = "<group>"; };
+		BF58A2232C70BA210060ECEC /* ImageCropVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropVCDelegate.swift; sourceTree = "<group>"; };
+		BF58A2262C70CCC30060ECEC /* CroppingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CroppingView.swift; sourceTree = "<group>"; };
 		BFAE9CCB2C6BCCC700E514A1 /* HATestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HATestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAE9CCE2C6BCCC700E514A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFAE9CD02C6BCCC700E514A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BFAE9CD22C6BCCC700E514A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BFAE9CD72C6BCCC800E514A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFAE9CDA2C6BCCC800E514A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFAE9CDC2C6BCCC800E514A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAE9CE32C6BCD9100E514A1 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		BFAE9CE52C6BCDA800E514A1 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		BFAE9CEF2C6BCE7100E514A1 /* TabBarAssembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarAssembler.swift; sourceTree = "<group>"; };
+		BFAE9CF02C6BCE7100E514A1 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		BFAE9CF22C6BCE7100E514A1 /* TabBarRootCoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarRootCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		BFAE9CF32C6BCE7100E514A1 /* TabBarCoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		BFAE9CF42C6BCE7100E514A1 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		BFAE9CFC2C6BCF0100E514A1 /* ImageCropVCAssembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCropVCAssembler.swift; sourceTree = "<group>"; };
+		BFAE9CFD2C6BCF0100E514A1 /* ImageCropVCCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCropVCCoordinator.swift; sourceTree = "<group>"; };
+		BFAE9CFF2C6BCF0100E514A1 /* ImageCropVCRootCoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCropVCRootCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		BFAE9D022C6BCF0100E514A1 /* ImageCropVCCoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCropVCCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		BFAE9D032C6BCF0100E514A1 /* ImageCropVMProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCropVMProtocol.swift; sourceTree = "<group>"; };
+		BFAE9D042C6BCF0100E514A1 /* ImageCropViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCropViewModel.swift; sourceTree = "<group>"; };
+		BFAE9D0E2C6BD24800E514A1 /* ImageCropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +93,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF365FE52C6BD2CD00CC8200 /* SettingsScene */ = {
+			isa = PBXGroup;
+			children = (
+				BF58A20E2C6E76AC0060ECEC /* Cells */,
+				BF365FE62C6BD2DA00CC8200 /* Protocols */,
+				BF365FED2C6BD38E00CC8200 /* SettingsViewController.swift */,
+				BF365FEF2C6BD3A200CC8200 /* SettingsVCCoordinator.swift */,
+				BF365FF12C6BD3B000CC8200 /* SettingsViewModel.swift */,
+				BF365FF32C6BD3BF00CC8200 /* SettingsVCAssembler.swift */,
+			);
+			path = SettingsScene;
+			sourceTree = "<group>";
+		};
+		BF365FE62C6BD2DA00CC8200 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BF365FE72C6BD2EE00CC8200 /* SettingsVCRootCoordinatorProtocol.swift */,
+				BF365FE92C6BD30200CC8200 /* SettingsVCCoordinatorProtocol.swift */,
+				BF365FEB2C6BD37600CC8200 /* SettingsVMProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BF58A20E2C6E76AC0060ECEC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BF58A2112C6E77240060ECEC /* SettingsTableViewCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BF58A2112C6E77240060ECEC /* SettingsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BF58A2122C6E77340060ECEC /* Models */,
+				BF58A20F2C6E76BE0060ECEC /* SettingsTableViewCell.swift */,
+			);
+			path = SettingsTableViewCell;
+			sourceTree = "<group>";
+		};
+		BF58A2122C6E77340060ECEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF58A2132C6E774C0060ECEC /* SettingsTableViewCellType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BF58A2152C6E7C9A0060ECEC /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				BF58A2162C6E7CC80060ECEC /* AlertFactory */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		BF58A2162C6E7CC80060ECEC /* AlertFactory */ = {
+			isa = PBXGroup;
+			children = (
+				BF58A2172C6E7CC80060ECEC /* AlertControllerFactory.swift */,
+				BF58A2182C6E7CC80060ECEC /* AlertControllerFactoryProtocol.swift */,
+			);
+			path = AlertFactory;
+			sourceTree = "<group>";
+		};
+		BF58A21B2C6E7D070060ECEC /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				BF58A21C2C6E7D070060ECEC /* Container.swift */,
+				BF58A21D2C6E7D070060ECEC /* ServiceConfigurations.swift */,
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		BF58A2222C70BA0C0060ECEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF58A2202C70B9C90060ECEC /* ImageCropVCState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BF58A2252C70CCB60060ECEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF58A2262C70CCC30060ECEC /* CroppingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		BFAE9CC22C6BCCC700E514A1 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +202,97 @@
 		BFAE9CCD2C6BCCC700E514A1 /* HATestProject */ = {
 			isa = PBXGroup;
 			children = (
-				BFAE9CCE2C6BCCC700E514A1 /* AppDelegate.swift */,
-				BFAE9CD02C6BCCC700E514A1 /* SceneDelegate.swift */,
-				BFAE9CD22C6BCCC700E514A1 /* ViewController.swift */,
-				BFAE9CD72C6BCCC800E514A1 /* Assets.xcassets */,
-				BFAE9CD92C6BCCC800E514A1 /* LaunchScreen.storyboard */,
 				BFAE9CDC2C6BCCC800E514A1 /* Info.plist */,
+				BFAE9CE52C6BCDA800E514A1 /* Coordinator.swift */,
+				BFAE9CE22C6BCD7B00E514A1 /* App */,
+				BF58A21B2C6E7D070060ECEC /* DependencyInjection */,
+				BF58A2152C6E7C9A0060ECEC /* Factories */,
+				BFAE9CE72C6BCDEF00E514A1 /* Modules */,
+				BFAE9CE92C6BCE0600E514A1 /* Resources */,
 			);
 			path = HATestProject;
+			sourceTree = "<group>";
+		};
+		BFAE9CE22C6BCD7B00E514A1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BFAE9CD02C6BCCC700E514A1 /* SceneDelegate.swift */,
+				BFAE9CCE2C6BCCC700E514A1 /* AppDelegate.swift */,
+				BFAE9CE32C6BCD9100E514A1 /* AppCoordinator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BFAE9CE72C6BCDEF00E514A1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BFAE9CE82C6BCDF700E514A1 /* MainApp */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BFAE9CE82C6BCDF700E514A1 /* MainApp */ = {
+			isa = PBXGroup;
+			children = (
+				BFAE9CEE2C6BCE7100E514A1 /* TabBarController */,
+				BF365FE52C6BD2CD00CC8200 /* SettingsScene */,
+				BFAE9CFA2C6BCF0100E514A1 /* ImageCropScene */,
+			);
+			path = MainApp;
+			sourceTree = "<group>";
+		};
+		BFAE9CE92C6BCE0600E514A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFAE9CD92C6BCCC800E514A1 /* LaunchScreen.storyboard */,
+				BFAE9CD72C6BCCC800E514A1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BFAE9CEE2C6BCE7100E514A1 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				BFAE9CF12C6BCE7100E514A1 /* Protocols */,
+				BFAE9CEF2C6BCE7100E514A1 /* TabBarAssembler.swift */,
+				BFAE9CF02C6BCE7100E514A1 /* TabBarCoordinator.swift */,
+				BFAE9CF42C6BCE7100E514A1 /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		BFAE9CF12C6BCE7100E514A1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BFAE9CF22C6BCE7100E514A1 /* TabBarRootCoordinatorProtocol.swift */,
+				BFAE9CF32C6BCE7100E514A1 /* TabBarCoordinatorProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BFAE9CFA2C6BCF0100E514A1 /* ImageCropScene */ = {
+			isa = PBXGroup;
+			children = (
+				BF58A2252C70CCB60060ECEC /* Views */,
+				BF58A2222C70BA0C0060ECEC /* Models */,
+				BFAE9CFE2C6BCF0100E514A1 /* Protocols */,
+				BFAE9D0E2C6BD24800E514A1 /* ImageCropViewController.swift */,
+				BFAE9D042C6BCF0100E514A1 /* ImageCropViewModel.swift */,
+				BFAE9CFD2C6BCF0100E514A1 /* ImageCropVCCoordinator.swift */,
+				BFAE9CFC2C6BCF0100E514A1 /* ImageCropVCAssembler.swift */,
+			);
+			path = ImageCropScene;
+			sourceTree = "<group>";
+		};
+		BFAE9CFE2C6BCF0100E514A1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BFAE9CFF2C6BCF0100E514A1 /* ImageCropVCRootCoordinatorProtocol.swift */,
+				BFAE9D022C6BCF0100E514A1 /* ImageCropVCCoordinatorProtocol.swift */,
+				BFAE9D032C6BCF0100E514A1 /* ImageCropVMProtocol.swift */,
+				BF58A2232C70BA210060ECEC /* ImageCropVCDelegate.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +365,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFAE9CD32C6BCCC700E514A1 /* ViewController.swift in Sources */,
+				BF365FF02C6BD3A200CC8200 /* SettingsVCCoordinator.swift in Sources */,
+				BF58A21A2C6E7CC80060ECEC /* AlertControllerFactoryProtocol.swift in Sources */,
+				BF58A21F2C6E7D070060ECEC /* ServiceConfigurations.swift in Sources */,
+				BF58A2192C6E7CC80060ECEC /* AlertControllerFactory.swift in Sources */,
+				BFAE9CE42C6BCD9100E514A1 /* AppCoordinator.swift in Sources */,
+				BF58A2102C6E76BE0060ECEC /* SettingsTableViewCell.swift in Sources */,
+				BF365FF42C6BD3BF00CC8200 /* SettingsVCAssembler.swift in Sources */,
+				BFAE9D062C6BCF0100E514A1 /* ImageCropVCAssembler.swift in Sources */,
+				BFAE9D072C6BCF0100E514A1 /* ImageCropVCCoordinator.swift in Sources */,
+				BF365FEE2C6BD38E00CC8200 /* SettingsViewController.swift in Sources */,
+				BF58A2272C70CCC30060ECEC /* CroppingView.swift in Sources */,
+				BFAE9CE62C6BCDA800E514A1 /* Coordinator.swift in Sources */,
+				BF58A2242C70BA210060ECEC /* ImageCropVCDelegate.swift in Sources */,
+				BFAE9CF92C6BCE7100E514A1 /* TabBarController.swift in Sources */,
+				BF365FE82C6BD2EE00CC8200 /* SettingsVCRootCoordinatorProtocol.swift in Sources */,
+				BFAE9CF62C6BCE7100E514A1 /* TabBarCoordinator.swift in Sources */,
+				BF58A2142C6E774C0060ECEC /* SettingsTableViewCellType.swift in Sources */,
+				BFAE9D0B2C6BCF0100E514A1 /* ImageCropVCCoordinatorProtocol.swift in Sources */,
+				BFAE9CF82C6BCE7100E514A1 /* TabBarCoordinatorProtocol.swift in Sources */,
+				BFAE9CF72C6BCE7100E514A1 /* TabBarRootCoordinatorProtocol.swift in Sources */,
 				BFAE9CCF2C6BCCC700E514A1 /* AppDelegate.swift in Sources */,
+				BFAE9CF52C6BCE7100E514A1 /* TabBarAssembler.swift in Sources */,
+				BFAE9D0D2C6BCF0100E514A1 /* ImageCropViewModel.swift in Sources */,
 				BFAE9CD12C6BCCC700E514A1 /* SceneDelegate.swift in Sources */,
+				BF365FEA2C6BD30200CC8200 /* SettingsVCCoordinatorProtocol.swift in Sources */,
+				BF365FEC2C6BD37600CC8200 /* SettingsVMProtocol.swift in Sources */,
+				BFAE9D0C2C6BCF0100E514A1 /* ImageCropVMProtocol.swift in Sources */,
+				BF365FF22C6BD3B000CC8200 /* SettingsViewModel.swift in Sources */,
+				BF58A21E2C6E7D070060ECEC /* Container.swift in Sources */,
+				BFAE9D0F2C6BD24800E514A1 /* ImageCropViewController.swift in Sources */,
+				BF58A2212C70B9C90060ECEC /* ImageCropVCState.swift in Sources */,
+				BFAE9D082C6BCF0100E514A1 /* ImageCropVCRootCoordinatorProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +543,8 @@
 				DEVELOPMENT_TEAM = 5H3Y5WAVX4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HATestProject/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Для сохранения обрезанной фотографии нам требуется разрешение";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Для обрезания фотографий требуется доступ к фото.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -293,7 +555,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.allanLysiuk.HATestProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.allanLysiuk.HATestProjectt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -311,6 +573,8 @@
 				DEVELOPMENT_TEAM = 5H3Y5WAVX4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HATestProject/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Для сохранения обрезанной фотографии нам требуется разрешение";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Для обрезания фотографий требуется доступ к фото.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -321,7 +585,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.allanLysiuk.HATestProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.allanLysiuk.HATestProjectt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
